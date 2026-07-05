@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-viajes-fondo: #F4EFEA;
+  --color-viajes-texto: #2A2522;
+  --color-viajes-acento: #8C5E45;
+  --color-viajes-iconos: #E6D6C6;
+}
+
+@layer components {
+h1 {
+  font-size: large;
+  color: #2A2522;
+}
+p{
+  color: #2A2522;
+}
+}
