@@ -4,6 +4,7 @@ import NavButton from "./Buttons"
 import SearchBar from "./SearchBar"
 import React, { useState } from "react"
 import { Menu, X  } from "lucide-react" 
+
 const textList = [
   {
     id: 0,
