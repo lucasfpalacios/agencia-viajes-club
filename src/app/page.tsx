@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import DestinationCard from "../components/CardDestination";
 import Link from "next/link";
+import WhyValijaClub from "../components/WhyValijaClub";
 
 const Destinations = [
   {
@@ -50,7 +51,7 @@ export default function Home() {
         buttonBrown="Ver paquetes"
         buttonTransparent="Explorar Destinos"
       />
-      <section className="py-20 px-8 bg-viajes-iconos/30"> 
+      <section className="py-20 px-8 bg-viajes-acento/10"> 
         <div className="max-w-7xl mx-auto w-full">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
             <div className="flex flex-col max-w-sm">
@@ -87,6 +88,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <WhyValijaClub />
     </main>
   );
 }
